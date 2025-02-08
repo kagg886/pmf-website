@@ -1,19 +1,36 @@
 import * as path from 'node:path';
-import { pluginLastUpdated } from '@rspress/plugin-last-updated';
 import {defineConfig} from 'rspress/config';
+import {pluginMarkDownAutoSpace} from "./plugins/markdown-auto-space.ts";
+import readingTime from "rspress-plugin-reading-time";
+import sitemap from "rspress-plugin-sitemap";
+import type {ReadTimeResults} from "reading-time";
 
 const icon = "https://raw.githubusercontent.com/kagg886/Pixiv-MultiPlatform/refs/heads/master/.idea/icon.png"
 
 export default defineConfig({
-    plugins: [pluginLastUpdated()],
+    lang: 'zh-CN',
+    plugins: [
+        readingTime(),
+        pluginMarkDownAutoSpace(),
+        sitemap({
+            domain: "https://pmf.kagg886.top",
+            defaultChangeFreq: "weekly",
+            defaultPriority: "0.5",
+        }),
+    ],
     root: path.join(__dirname, 'docs'),
     title: 'Pixiv-MultiPlatform',
     icon: icon,
     logo: icon,
     logoText: 'Pixiv-MultiPlatform',
     themeConfig: {
+        lastUpdated: true,
         footer: {
             message: 'GPLv3 Licensed | Copyright © 2024 kagg886',
+        },
+        editLink: {
+            docRepoBaseUrl: 'https://github.com/kagg886/pmf-website/tree/master/docs',
+            text: '📝 在 GitHub 上编辑此页',
         },
         socialLinks: [
             {
@@ -84,41 +101,3 @@ export default defineConfig({
         },
     },
 });
-
-
-//sidebar: [
-//             {
-//                 text: '欢迎',
-//                 link: '/welcome'
-//             },
-//             {
-//                 text: '软件功能',
-//                 children: [
-//                     {
-//                         text: '安装',
-//                         link: '/main/install'
-//                     },
-//                     {
-//                         text: '登录',
-//                         link: '/main/login'
-//                     },
-//                     {
-//                         text: '快捷键',
-//                         link: '/main/keyword'
-//                     },
-//                     {
-//                         text: '主题',
-//                         link: '/main/theme'
-//                     },
-//                 ]
-//             },
-//             {
-//                 text: '开发指南',
-//                 children: [
-//                     {
-//                         text: '贡献',
-//                         link: '/dev/contribute'
-//                     }
-//                 ]
-//             }
-//         ]
