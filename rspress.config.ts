@@ -74,6 +74,18 @@ export default defineConfig({
                             link: 'main/login',
                         },
                         {
+                            text: '插画',
+                            link: 'main/illusts',
+                        },
+                        {
+                            text: '小说',
+                            link: 'main/novel',
+                        },
+                        {
+                            text: '搜索',
+                            link: 'main/search',
+                        },
+                        {
                             text: '快捷键',
                             link: 'main/keyword',
                         },
