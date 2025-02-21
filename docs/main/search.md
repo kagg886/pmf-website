@@ -6,7 +6,7 @@
 
 | Desktop                                                                                            | Phone                                                                                              |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| ![](C:\Users\kagg886\AppData\Roaming\marktext\images\4616a2bd2318747124f2987c357e1a29ed4427de.png) | ![](C:\Users\kagg886\AppData\Roaming\marktext\images\c6976e0390abce7c0ac159ce297e0a5680202d08.png) |
+| ![](./theme.assets/4616a2bd2318747124f2987c357e1a29ed4427de.png) | ![](./theme.assets/c6976e0390abce7c0ac159ce297e0a5680202d08.png) |
 
 > 左侧为无历史记录的页面，右侧为有历史记录的页面。
 > 
@@ -16,7 +16,7 @@
 
 ## 搜索页面
 
-![](C:\Users\kagg886\AppData\Roaming\marktext\images\2025-02-21-22-08-07-image.png)
+![](./theme.assets/2025-02-21-22-08-07-image.png)
 
 ### 排序方式
 
@@ -56,7 +56,7 @@
 
 在输入框内输入关键词以进行搜索。例如：
 
-![](C:\Users\kagg886\AppData\Roaming\marktext\images\2025-02-21-22-15-44-image.png)
+![](./theme.assets/2025-02-21-22-15-44-image.png)
 
 ::: tip
 
@@ -66,7 +66,7 @@
 
 点击tag后，tag将会填充到上面的输入框中。而点击tag右侧的x即可移除tag。
 
-![](C:\Users\kagg886\AppData\Roaming\marktext\images\2025-02-21-22-17-45-image.png)
+![](./theme.assets/2025-02-21-22-17-45-image.png)
 
 
 
@@ -76,4 +76,4 @@
 
 只需要从搜索结果里找到你喜欢的结果并点击即可！
 
-![](C:\Users\kagg886\AppData\Roaming\marktext\images\2025-02-21-22-19-46-image.png)
+![](./theme.assets/2025-02-21-22-19-46-image.png)

@@ -2,8 +2,7 @@ import * as path from 'node:path';
 import {defineConfig} from 'rspress/config';
 import {pluginMarkDownAutoSpace} from "./plugins/markdown-auto-space.ts";
 import readingTime from "rspress-plugin-reading-time";
-import sitemap from "rspress-plugin-sitemap";
-import type {ReadTimeResults} from "reading-time";
+import sitemap from "rspress-plugin-sitemap"
 
 const icon = "https://raw.githubusercontent.com/kagg886/Pixiv-MultiPlatform/refs/heads/master/.idea/icon.png"
 
