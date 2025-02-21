@@ -8,10 +8,13 @@
 - Linux
 - macOS
 - Android
+- IOS(部分支持)
 
-::: tip
+::: danger
 
-IOS的支持正在制作，敬请期待。
+受限于我不会使用mac命令行的缘故，故IOS包无法加入CI发行版中。
+
+如有人想要尝鲜的话，请自行下载编译安装。
 
 :::
 
@@ -21,8 +24,6 @@ IOS的支持正在制作，敬请期待。
 2. Windows，Linux用户请跳转到[桌面端安装](#桌面端windowslinuxmacos安装)
 3. Android用户请跳转到[安卓端安装](#安卓端安装)
 
-
-
 ## 桌面端(Windows，Linux,macOS)安装
 
 1. 解压缩文件到你喜欢的位置中
@@ -30,7 +31,7 @@ IOS的支持正在制作，敬请期待。
 2. Windows用户请寻找`Pixiv-MultiPlatform.exe`，Linux用户请寻找`Pixiv-MultiPlatform`
 
 3. Linux用户需要赋予文件可执行权限。例如：
-
+   
    ```bash
    chmod +x ./Pixiv-MultiPlatform
    ```
@@ -38,31 +39,29 @@ IOS的支持正在制作，敬请期待。
 4. 双击可执行文件。
 
 > ### macOS 上无法安装dmg文件的解决方案
->
+> 
 > 1. 打开
->
+>    
 >    ![image-20250130084342912](./install.assets/image-20250130084342912.png)
->
+> 
 > 2. 依次点击
->
+>    
 >    ![3](./install.assets/3.png)
->
+> 
 > 3. 输入密码后，即可继续安装。
 
 ## 安卓端安装
 
 1. 下载`android.apk`文件到你喜欢的位置中
-
+   
    ::: info
-
+   
    默认的存储位置应该是`内置存储/Downloads中`
    :::
 
 2. 打开你手机里的文件管理软件(若没有请下载诸如`MT管理器`等的第三方文件管理工具)，找到你下载的`android.apk`。
 
 3. 单击进行安装，安装时请留意：`无视风险`等小字。
-
-
 
 ## 卸载
 
