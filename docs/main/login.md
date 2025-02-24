@@ -97,3 +97,20 @@ Pixiv-MultiPlatform提供了两种登录方式：
    ![image-20250208111717114](./login.assets/image-20250208111717114.png)
 
 2. 如果您使用其他客户端。在找到客户端导出的会话信息后，需要重点关注诸如`refresh_token`的字段，其中的值便是Pixiv-MultiPlatform需要的登录token。
+   
+
+   ::: danger 温馨提示
+
+   请不要将网页端的Cookie直接粘入聊天框！PMF只接受移动端的登录凭证！
+
+   > #### 什么是网页端的Cookie？
+   >
+   > 是指您在开发者工具里复制的类似这样的字符串：
+   >
+   > ```
+   > p_ab_id=2; p_ab_id_2=8; p_ab_d_id=...; yuid_b=...; login_ever=yes; PHPSESSID=....; c_type=...; privacy_policy_notification=0; a_type=0; b_type=0; privacy_policy_agreement=7; __cf_bm=...; privacy_policy_agreement=7; cf_clearance=...
+   > ```
+   >
+   > **尤其注意不要将PHPSESSID的内容填入对话框！**
+
+   :::
