@@ -21,22 +21,50 @@
 ## 我该如何选择安装包？
 
 1. 点击[下载页面](https://github.com/kagg886/Pixiv-MultiPlatform/releases/latest)
-2. Windows，Linux用户请跳转到[桌面端安装](#桌面端windowslinuxmacos安装)
-3. Android用户请跳转到[安卓端安装](#安卓端安装)
+2. Windows用户请跳转到[Windows安装](#windows安装)
+3. Linux用户请跳转到[Linux安装](#Linux安装)
+4. macOS用户请跳转到[macOS安装](#macOS安装)
+5. Android用户请跳转到[安卓端安装](#安卓端安装)
 
-## 桌面端(Windows，Linux,macOS)安装
+## Windows安装
+
+### 直接解压缩文件
 
 1. 解压缩文件到你喜欢的位置中
+2. 点击`Pixiv-MultiPlatform.exe`以启动
 
-2. Windows用户请寻找`Pixiv-MultiPlatform.exe`，Linux用户请寻找`Pixiv-MultiPlatform`
+### 使用Windows Installer(.msi)安装
 
-3. Linux用户需要赋予文件可执行权限。例如：
-   
-   ```bash
-   chmod +x ./Pixiv-MultiPlatform
-   ```
+1. 下载`windows.msi`
 
-4. 双击可执行文件。
+2. 双击，选择合适的位置进行安装。
+
+   :::warning
+
+   默认情况下会安装到`C:\Program Files\Pixiv-MultiPlatform`，介意者可更换安装路径
+
+   :::
+
+## Linux安装
+
+### 解压缩安装
+
+使用`tar`相关命令解压归档文件到你喜欢的位置中
+
+赋予可执行文件权限：`chmod +x ./Pixiv-MultiPlatform`
+
+双击文件以启动。
+
+### AUR(仅限ArchLinux)安装
+
+目前已有对于`AUR`的[第三方软件包](https://aur.archlinux.org/packages?O=0&SeB=nd&K=pixiv-multiplatform&outdated=&SB=p&SO=d&PP=50&submit=Go)，您可以使用`yay -S`相关命令进行安装，对于此类功能则不再赘述
+
+## macOS安装
+
+1. 下载`.dmg`文件
+2. 双击文件
+3. 拖动图标到`Applications`
+4. 启动App
 
 > ### macOS 上无法安装dmg文件的解决方案
 > 
