@@ -59,7 +59,6 @@ export default defineConfig({
                 position: 'left',
                 activeMatch: '^\\/(main|dev)'
             },
-
         ],
 
         sidebar: {
@@ -106,6 +105,10 @@ export default defineConfig({
                     text: '开发指南',
                     items: [
                         // 填入一个对象
+                        {
+                            text: '构建应用程序',
+                            link: 'dev/build',
+                        },
                         {
                             text: '提交功能建议',
                             link: 'dev/contribute',
