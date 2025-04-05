@@ -31,6 +31,7 @@
   无论任何用户，都需要安装`i686-linux-android`，` x86_64-linux-android`。
 
   Mac用户想要运行iOS程序时请安装`x86_64-apple-ios`，`aarch64-apple-ios`，`aarch64-apple-ios-sim`
+  :::
 
 酌情安装：
 
