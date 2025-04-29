@@ -11,7 +11,7 @@ hero:
       link: https://github.com/kagg886/Pixiv-MultiPlatform/releases/latest
     - theme: alt
       text: 查看文档
-      link: /main/welcome
+      link: docs/main/welcome
 
 features:
   - title: 跨平台

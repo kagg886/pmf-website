@@ -1,0 +1,12 @@
+[
+    {
+        "text": "Home",
+        "link": "/",
+        "activeMatch": "^/$|^\\/index"
+    },
+    {
+        "text": "Documentation",
+        "link": "/main/welcome",
+        "activeMatch": "^\\/(main|dev)"
+    }
+]
