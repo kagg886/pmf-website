@@ -24,6 +24,6 @@
 
 ## 2. 我该从哪里开始阅读？
 
-若您是想要下载程序的用户，请点击[安装](main/install.md)
+若您是想要下载程序的用户，请点击[安装](docs/main/install.md)
 
-若您是开发者，请点击[参与贡献](dev/contribute.md)
+若您是开发者，请点击[参与贡献](docs/dev/contribute.md)

@@ -16,7 +16,7 @@ The illustration browsing page looks like this:
   
   On mobile, click the top button to return to the top, pull down again to refresh.
 
-- For PC shortcuts, please refer to [Shortcuts](main/keyword.md)
+- For PC shortcuts, please refer to [Shortcuts](docs/main/keyword.md)
 
 - Click on an image to enter the illustration preview page. Click on the navigation bar to go to different modules.
 

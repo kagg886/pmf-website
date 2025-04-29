@@ -18,6 +18,6 @@ All existing features and operation methods of the software.
 
 ## 2. Where should I start reading?
 
-If you are a user who wants to download the program, please click [Installation](main/install.md)
+If you are a user who wants to download the program, please click [Installation](docs/main/install.md)
 
-If you are a developer, please click [Contribute](dev/contribute.md)
+If you are a developer, please click [Contribute](docs/dev/contribute.md)
